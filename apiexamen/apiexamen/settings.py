@@ -25,7 +25,7 @@ SECRET_KEY = 'lj&*=b=#rr(x6)k$9*9@7qe8k6l9jsf#s=+@1ya&i!pxoarl!x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','Examen.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','dachser.pythonanywhere.com']
 
 
 # Application definition
@@ -128,5 +128,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CORS_ORIGIN_WHITELIST = (
-    'https://jkmatta.github.io/Examen.github.io' #cambiar a http://127.0.0.1:8887/ para hacer test
+    'https://jkmatta.github.io/Examen.github.io/' #cambiar a http://127.0.0.1:8887/ para hacer test
 )                                #cambiar a https://jkmatta.github.io/Examen.github.io para subir a web
