@@ -1,11 +1,7 @@
-from .models import Usuario, Producto, Lista, TiendaFisica, TiendaOnLine
-from .serializers import UsuarioSerializer, ProductoSerializer, ListaSerializer, TiendaFisicaSerializer, TiendaOnLineSerializer
+from .models import Producto, Lista, TiendaFisica, TiendaOnLine
+from .serializers import ProductoSerializer, ListaSerializer, TiendaFisicaSerializer, TiendaOnLineSerializer
 from rest_framework import viewsets
 
-class UsuarioViewSet(viewsets.ModelViewSet):
- 
-    serializer_class = UsuarioSerializer
-    queryset = Usuario.objects.all()
 
 class ProductoViewSet(viewsets.ModelViewSet):
  
